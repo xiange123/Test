@@ -14,6 +14,7 @@
 		BC744DD01BB3CEE10074F706 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC744DCF1BB3CEE10074F706 /* Images.xcassets */; };
 		BC744DD31BB3CEE10074F706 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC744DD11BB3CEE10074F706 /* LaunchScreen.xib */; };
 		BC744DDF1BB3CEE10074F706 /* gitHubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC744DDE1BB3CEE10074F706 /* gitHubTests.m */; };
+		BC957A191BB3EC7600E288AA /* PodFile in Resources */ = {isa = PBXBuildFile; fileRef = BC957A181BB3EC7600E288AA /* PodFile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		BC744DD81BB3CEE10074F706 /* gitHubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitHubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC744DDD1BB3CEE10074F706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC744DDE1BB3CEE10074F706 /* gitHubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitHubTests.m; sourceTree = "<group>"; };
+		BC957A181BB3EC7600E288AA /* PodFile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PodFile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		BC744DB61BB3CEE10074F706 = {
 			isa = PBXGroup;
 			children = (
+				BC957A181BB3EC7600E288AA /* PodFile */,
 				BC744DC11BB3CEE10074F706 /* gitHub */,
 				BC744DDB1BB3CEE10074F706 /* gitHubTests */,
 				BC744DC01BB3CEE10074F706 /* Products */,
@@ -201,6 +204,7 @@
 			files = (
 				BC744DCE1BB3CEE10074F706 /* Main.storyboard in Resources */,
 				BC744DD31BB3CEE10074F706 /* LaunchScreen.xib in Resources */,
+				BC957A191BB3EC7600E288AA /* PodFile in Resources */,
 				BC744DD01BB3CEE10074F706 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +422,7 @@
 				BC744DE41BB3CEE10074F706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC744DE51BB3CEE10074F706 /* Build configuration list for PBXNativeTarget "gitHubTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +431,7 @@
 				BC744DE71BB3CEE10074F706 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
